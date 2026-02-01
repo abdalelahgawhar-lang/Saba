@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine for Saba</title>
+    <style>
+        /* Your original CSS with small layout improvements */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9e3e3;
+            font-family: 'Arial', sans-serif;
+            flex-direction: column; /* Keeps elements stacked vertically */
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header_text {
+            font-size: 3em;
+            color: #d32f2f;
+            margin-bottom: 20px;
+        }
+
+        .gif_container img {
+            width: 100%; 
+            max-width: 400px; 
+            height: auto; 
+            border-radius: 15px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        /* Styling the buttons to match your theme */
+        .btn {
+            background-color: #d32f2f;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+        }
+
+        #noButton {
+            background-color: #ffffff;
+            color: #d32f2f;
+            border: 2px solid #d32f2f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="header_text">Would you like to be my valentine, Saba?</h1>
+
+        <div class="gif_container">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHJleXp6eXp6eXp6eXp6eXp6eXp6eXp6eXp6eXp6eXp6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/c76IJLufpN06iMwDsh/giphy.gif" alt="Cute Valentine GIF">
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
