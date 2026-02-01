@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine for Saba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="header_text">Would you like to be my valentine, Saba?</h1>
+
+        <div class="gif_container">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHJleXp6eXp6eXp6eXp6eXp6eXp6eXp6eXp6eXp6eXp6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/c76IJLufpN06iMwDsh/giphy.gif" alt="Cute Valentine GIF">
+        </div>
+
+        <div class="buttons">
+            <button class="btn yes-btn">Yes</button>
+            <button class="btn no-btn">No</button>
+        </div>
+    </div>
+
+</body>
+</html>
